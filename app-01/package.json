@@ -1,18 +1,22 @@
 {
-  "name": "app-01",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type":"module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start1": "node index1.js",
-    "start2": "node index2.js",
-    "start3": "node index3.js",
-    "start4": "node index4.js",
-    "start5": "node index5.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "name": "app-01",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start1": "node index1.js",
+        "start2": "node index2.js",
+        "start3": "node index3.js",
+        "start4": "node index4.js",
+        "start5": "node index5.js",
+        "start6": "node index6.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "country-to-currency": "^1.0.4"
+    }
 }
