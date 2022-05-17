@@ -6,7 +6,7 @@ const mostrarDatosUrl = (url) => {
 
         const host = url.host;
         const pathname = url.pathname;
-        const params = url.searchParams;
+        const params = url.searchParams
 
         const datos = {
             "host": host,
@@ -16,9 +16,7 @@ const mostrarDatosUrl = (url) => {
 
         return datos;
     } catch (e) {
-        return console.log(e);
-    } finally {
-        return console.log('url invalida')
+        return console.log(`${e} Url inválida`);
     }
 
 }
